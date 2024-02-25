@@ -1,0 +1,494 @@
+.checkout-page
+{
+    padding-bottom: 60px;
+}
+
+.checkout-page .add-address
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    flex-direction: column;
+    border-style: dashed;
+    height: 250px;
+    width: 100%;
+    border-width: 2px;
+    box-sizing: border-box;
+    border-color: #C7C7C7;
+    text-align: center;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.checkout-page .add-address svg
+{
+    font-size: 32px;
+    color: #d9d8d8;
+    cursor: pointer;
+}
+.checkout-page .add-address p
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #424242de;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+/* address css */
+
+.checkout-page .tab-content
+{
+    padding: 15px 0;
+}
+.checkout-page .nav-link
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.checkout-page .form-check-input:checked
+{
+    background-color: #495057;
+    border-color: transparent;
+}
+.checkout-page .save-address {
+    height: 250px;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border-color: #C7C7C7;
+    box-shadow: 0 3px 1px 0 rgb(0 0 0 / 10%);
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.checkout-page .default-add {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.checkout-page .default-address
+{
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    font-family: 'Lato', sans-serif;
+}
+.checkout-page .address-logo
+{
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 5px;
+}
+.checkout-page .full-address
+{
+    padding: 10px;
+}
+.checkout-page .full-address .full-add-name
+{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.checkout-page .full-address .full-address-1
+{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2px;
+    color: #777;
+}
+.checkout-page .full-address .full-add-phn
+{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #777;
+}
+.checkout-page .full-address .full-editing-of-add
+{
+    padding: 20px 0;
+    display: flex;
+}
+.checkout-page .full-address .full-editing-of-add .full-add-edit , 
+.checkout-page .full-address .full-editing-of-add .full-add-remove
+{
+    text-decoration: none;
+    color: #424242db;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+.checkout-page .full-address .full-editing-of-add .full-add-edit:hover , 
+.checkout-page .full-address .full-editing-of-add .full-add-remove:hover
+{
+    color: #b86097;
+}
+
+/* commonted on 4 sept to add focus on state field */
+/* .checkout-page .form-select:focus{
+    border-color:#D8D7DF;
+    opacity: .6;
+} */
+/* address css ends */
+
+
+.exist-address .nav-tabs button
+{
+    padding: 5px 15px !important;
+}
+
+.add-checkbox {
+    display: flex;
+    align-items: center !important;
+    justify-content: space-between !important;
+    
+}
+.add-checkbox input {
+    width: 0 !important;
+    float: right !important;
+}
+.checkout-page .right-side-details
+{
+    position: sticky;
+    top: 210px;
+}
+.checkout-page .right-side-details .order-summary-wrapper
+{
+    padding: 20px;
+    border: 1px solid #E4E1D9;
+}
+.checkout-page .right-side-details .order-price-detail
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.checkout-page .right-side-details .order-total-price , .checkout-page .right-side-details .order-delivery-price
+{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+.checkout-page .right-side-details .order-total-amount
+{
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E4E1D9;
+    padding: 15px 0;
+}
+.checkout-page .right-side-details .order-summary-btn
+{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: #495057;
+}
+.checkout-page .right-side-details .order-summary-btn:hover
+{
+    background: #495057;
+}
+
+.checkout-page h1,.checkout-page h2,.checkout-page h3,.checkout-page h4
+{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: playfair;
+}
+.checkout-page input
+{
+    border: 1px solid #D8D7DF;
+    padding: 7px;
+    width: 100%;
+}
+.checkout-country-state{
+    border-radius: 0!important;
+}
+.checkout-country-state:focus{
+    border: 1px solid #000!important;
+    opacity: .8;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)!important;
+}
+.checkout-page input:focus{
+    border: 1px solid #000;
+    opacity: .8;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] 
+{
+    -moz-appearance: textfield;
+}
+.checkout-page label
+{
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-family: 'Lato', sans-serif;
+}
+.checkout-page .profile-wrapper .profile-section div input:focus, div textarea:focus
+{
+    border: 1px solid #D8D7DF !important;
+}
+.checkout-page textarea
+{
+    border: 1px solid #D8D7DF;
+    width: 100%;
+}
+.checkout-page .card
+{
+    margin: 15px 0;
+    cursor: pointer;
+    border: none;
+}
+
+.checkout-page .address-selection
+{
+    position: relative;
+}
+.checkout-page .address-selection-choice
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Modal for guest user */
+
+.showModal1 .guest-user-modal
+{
+    text-align: center;
+    padding: 10px 0;
+    background: #f2f2f2;
+    box-shadow: 0 12px 15px 0 rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    z-index: 18;
+    width: 400px;
+    margin: auto;
+    transform: translateX(-50%);
+}
+.showModal1 .guest-user-modal .modal-btn
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.showModal1 .guest-user-modal .modal-btn .btn
+{
+    background: #495057;
+    font-weight: 500;
+    color: #f2f2f2;
+    text-transform: uppercase;
+}
+.showModal1 .guest-user-modal img
+{
+    height: 160px;
+    object-fit: contain;
+}
+.showModal1 .guest-user-modal p
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+.showModal1 .guest-user-modal .close-btn
+{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 27px;
+    color: #706f6f;
+    cursor: pointer;
+}
+
+#myModal .guest-user-modal{
+    padding: 15px;
+} 
+#myModal .guest-user-modal img{
+    height:100px;
+}
+#myModal .guest-user-modal p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+
+/* responsive */
+
+@media only screen and (max-width:818px) {
+    .checkout-page .address-logo
+    {
+        font-size: 12px;
+    }
+    .checkout-page .default-address
+    {
+        font-size: 13px;
+    }
+    .checkout-page .default-add
+    {
+        padding: 4px 10px;
+    }
+    .checkout-page .adress-boxes-2
+    {
+    display: block;
+    }
+}
+
+@media only screen and (max-width:767px)
+{
+    .checkout-page .default-address
+    {
+        font-size: 14px;
+    }
+    .checkout-page .default-add
+    {
+        padding: 5px 10px;
+    }
+    .checkout-page .left-side-details .left-checkout , .checkout-page .left-side-details .right-checkout
+{
+    padding: 0;
+}
+.checkout-page .left-side-details h2
+{
+    padding: 20px 0;
+    font-size: 20px;
+}
+.checkout-page .right-side-details .order-summary-btn
+{
+    font-size: 15px;
+}
+.checkout-page .right-side-details .order-summary-wrapper
+{
+    margin-top: 30px;
+}
+}
+@media only screen and (max-width:637px) {
+    .checkout-page .default-add
+    {
+        padding: 4px 10px;
+    }
+}
+@media only screen and (max-width:575px) {
+    .checkout-page .default-add
+    {
+        padding: 3px 10px;
+    }
+}
+@media only screen and (max-width:480px) {
+    .checkout-page .default-add
+    {
+        padding: 2px 10px;
+    }
+    .checkout-page .save-address
+    {
+        height: 190px;
+    }
+    .checkout-page .full-address .full-editing-of-add
+    {
+        padding: 10px 0;
+    }
+    .checkout-page .full-address .full-add-name
+    {
+        padding-top: 0;
+    }
+    .checkout-page .add-address
+    {
+        height: 190px;
+    }
+}
+@media only screen and (max-width:443px) {
+   
+    .checkout-page .save-address , .your-address .add-address
+    {
+        height: 200px;
+    }
+    
+}
+@media only screen and (max-width :430px) {
+    .checkout-page .right-side-details .order-summary-btn
+    {
+        font-size: 14px;
+    }
+    .checkout-page .left-side-details h2
+    {
+        font-size: 18px;
+    }
+    .showModal1 .guest-user-modal
+    {
+        width: 300px;
+    }
+    .showModal1 .guest-user-modal img
+    {
+        height: 100px;
+    }
+    .showModal1 .guest-user-modal p
+    {
+        font-size: 15px;
+    }
+    .checkout-page .save-address, .your-address .add-address
+    {
+        height: 212px;
+    }
+}
+@media only screen and (max-width:364px) {
+    .checkout-page .address-logo
+    {
+        font-size: 11px;
+    }
+    .checkout-page .default-address
+    {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:343px) {
+   
+    .checkout-page .save-address, .your-address .add-address
+    {
+        height: 200px;
+    }
+}
+@media only screen and (max-width:329px) {
+   
+    .checkout-page .save-address, .your-address .add-address
+    {
+        height: 230px;
+    }
+}
+
+
+/* custom-option */
+  
+  .custom-select option {
+    font-size: 18px; /* Set the same height as the select element */
+  }

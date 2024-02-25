@@ -1,0 +1,329 @@
+.your-address
+{
+    padding-bottom: 60px;
+}
+.your-address .add-address {
+    border-style: dashed;
+    height: 250px;
+    width: 100%;
+    border-width: 2px;
+    box-sizing: border-box;
+    border-color: #C7C7C7;
+    text-align: center;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.your-address h5
+{
+    padding-top: 37px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f2f2f2;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.your-address .adress-boxes-2
+{
+    margin-top: 20px;
+}
+.your-address .add-address
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.your-address .add-address svg
+{
+    font-size: 32px;
+    color: #d9d8d8;
+    cursor: pointer;
+}
+.your-address .add-address p
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #424242de;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+.your-address .save-address {
+    height: 250px;
+    width: 100%;
+    border-width: 1px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border-color: #C7C7C7;
+    box-shadow: 0 3px 1px 0 rgb(0 0 0 / 10%);
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.your-address .default-add {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.your-address .default-address
+{
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    font-family: 'Lato', sans-serif;
+}
+.your-address .address-logo
+{
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 5px;
+}
+.your-address .full-address
+{
+    padding: 10px;
+}
+.your-address .full-address .full-add-name
+{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.your-address .full-address .full-address-1
+{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2px;
+    color: #777;
+}
+.your-address .full-address .full-add-phn
+{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    color: #777;
+}
+.your-address .full-address .full-editing-of-add
+{
+    padding-top: 20px;
+    display: flex;
+}
+.your-address .full-address .full-editing-of-add .full-add-edit , 
+.your-address .full-address .full-editing-of-add .full-add-remove
+{
+    text-decoration: none;
+    color: #424242db;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+}
+.your-address .full-address .full-editing-of-add .full-add-edit:hover , 
+.your-address .full-address .full-editing-of-add .full-add-remove:hover
+{
+    color: #b86097;
+}
+.your-address .custom-edit-bar
+{
+    font-size: 14px;
+    color: #212121;
+}
+.add-address-page h1,.add-address-page h2,.add-address-page h3,.add-address-page h4
+{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+}
+.address-section .add-address-page input
+{
+    border: 1px solid #D8D7DF;
+    border-radius: 5px;
+    padding: 7px;
+    width: 100%;
+}
+.add-address-page label
+{
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-family: 'Lato', sans-serif;
+}
+.add-address-page textarea
+{
+    border: 1px solid #D8D7DF;
+    width: 100%;
+}
+.full-address-btn
+{
+    border: none;
+    color: #ffffff;
+    background-color: #495057;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 40px;
+    width: auto;
+    margin: 25px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+.full-address-btn:focus{
+   
+    background-image: radial-gradient(circle, #212121, #1b1b1b, #141414, #0c0c0c, #000000);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+
+
+/* responsive css */
+
+@media only screen and (max-width:818px) {
+    .your-address .address-logo
+    {
+        font-size: 12px;
+    }
+    .your-address .default-address
+    {
+        font-size: 13px;
+    }
+    .your-address .default-add
+    {
+        padding: 4px 10px;
+    }
+    .your-address .save-address
+    {
+        /* margin-top: 30px; */
+    }
+    .your-address
+    {
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .your-address .default-address
+    {
+        font-size: 14px;
+    }
+    .your-address .default-add
+    {
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width:637px) {
+    .your-address .default-add
+    {
+        padding: 4px 10px;
+    }
+}
+@media only screen and (max-width:575px) {
+    .your-address .default-add
+    {
+        padding: 3px 10px;
+    }
+
+    .your-address .save-address,.your-address .add-address{
+        width: 75%;
+        margin:8px auto;
+    }
+}
+@media only screen and (max-width:480px) {
+    .your-address .default-add
+    {
+        padding: 2px 10px;
+    }
+    .your-address .save-address
+    {
+        height: 210px;
+    }
+    .your-address .full-address .full-editing-of-add
+    {
+        padding: 10px 0;
+    }
+    .your-address .full-address .full-add-name
+    {
+        padding-top: 0;
+    }
+    .your-address .add-address
+    {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .your-address .add-address svg
+    {
+        font-size: 20px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 3px;
+    }
+    .your-address .add-address p
+    {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:443px) {
+   
+    .your-address .save-address , .your-address .add-address
+    {
+        height: auto;
+    }
+}
+@media only screen and (max-width:373px) {
+   
+    .your-address .save-address , .your-address .add-address
+    {
+        height: 230px;
+    }
+}
+@media only screen and (max-width:364px) {
+    .your-address .address-logo
+    {
+        font-size: 11px;
+    }
+    .your-address .default-address
+    {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:343px) {
+   
+    .your-address .save-address, .your-address .add-address
+    {
+        height: 220px;
+    }
+   
+    .your-address .add-address p
+    {
+        font-size: 13px;
+    }
+    .your-address .add-address svg
+    {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:324px) {
+      
+}

@@ -1,0 +1,6 @@
+.product-item{
+    width: 100% !important;
+    height: 498px !important;
+    object-fit: cover;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}

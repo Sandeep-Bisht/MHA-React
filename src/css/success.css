@@ -1,0 +1,129 @@
+.order-success-page
+{
+    padding-top: 50px;
+}
+.order-success-page .order-success-card
+{
+    background-color: #e1e1e1;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.success-heading h1
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0;
+}
+.success-thank-you h2
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #000;
+    letter-spacing: 0.25px;
+}
+.order-success-page .success-home-btn
+{
+    background: #4D4D4D;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.order-success-page .success-home-btn a
+{
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.success-svg 
+{
+    padding: 8px 12px;
+    background-color: #0E912C;
+    border: none;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.success-svg svg
+{
+    color: #fff;
+}
+.success-order-id p, .success-email-confirm-msg p
+{
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width : 767px) {
+    .order-success-page .order-success-card
+    {
+        padding: 30px 15px;
+    }
+    .success-heading h1
+    {
+        text-align: center;
+        font-size: 24px;
+    }
+    .success-order-id p, .success-email-confirm-msg p
+    {
+        text-align: center;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .success-heading h1
+    {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width : 430px) {
+    .order-success-page .success-home-btn a {
+        font-size: 12px;
+    }
+    .order-success-page .success-home-btn
+    {
+        margin-top: 0;
+    }
+    .success-thank-you h2
+    {
+        text-align: center;
+        font-size: 14px;
+    }
+    .success-heading h1
+    {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width : 371px) {
+    .order-success-page .success-home-btn a
+    {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width : 338px) {
+    .order-success-page .success-home-btn a
+    {
+        font-size: 12px;
+    }
+    .order-success-page .success-home-btn
+    {
+        padding: 5px 15px;
+    }
+}

@@ -1,0 +1,191 @@
+.contact-us-page .error-message{
+    color: red;
+}
+.contact-us-page
+{
+    padding: 50px 0;
+}
+.contact-us-page .discover-wrapper h2
+{
+    color: #3c3333d1;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Playfair Display', serif;
+}
+.contact-us-page .discover-wrapper p
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #777;
+}
+.contact-us-page .visit-us-wrapper h3
+{
+    color: #3c3333d1;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Playfair Display', serif;;
+}
+.contact-us-page .visit-us-wrapper p
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #777;
+}
+.contact-us-page .email-wrapper h4
+{
+    color: #3c3333d1;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Playfair Display', serif;;
+}
+.contact-us-page .email-wrapper p
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #777;
+}
+.contact-us-page .callus-wrapper h5
+{
+    color: #3c3333d1;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Playfair Display', serif;;
+}
+.contact-us-page .callus-wrapper p
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #777;
+}
+
+.contact-us-page .form-wrap-left h6
+{
+    color: #3c3333d1;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Playfair Display', serif;;
+}
+.contact-us-page .form-wrap-left p
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #777;
+}
+.contact-us-page .form-wrap-right input
+{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #B3B3B3;
+    width: 100%;
+}
+
+
+ .contact-us-page .form-wrap-right input::placeholder
+ {
+    font-size: 13px;
+ }
+input:focus-visible {
+    outline: none;
+    border-bottom: 1px solid #000!important;
+    opacity: .8!important;
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)!important; */
+}
+.contact-us-page .form-btn button
+{
+    background: #78BE20;
+    color: #212121;
+    border: none;
+    padding: 6px 30px;
+    margin-top: 40px;
+}
+.contact-us-page .contact-heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px!important;
+    font-weight: 700!important;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #212529!important;
+}
+
+
+
+
+@media only screen and (max-width : 767px) {
+    .contact-us-page .form-wrap-left
+    {
+        padding: 0 !important;
+    }
+    .contact-us-page .removed
+    {
+        padding: 0 !important;
+    }
+    .contact-us-page .discover-wrapper h2
+    {
+        font-size: 30px;
+    }
+    .contact-us-page .discover-wrapper p {
+        padding: 6px 0;
+    }
+    .contact-us-page .email-wrapper p
+    {
+        padding: 0;
+    }
+    .contact-us-page .visit-us-wrapper h3 ,.contact-us-page .email-wrapper h4, .contact-us-page .callus-wrapper h5
+    {
+        font-size: 25px;
+    }
+    .contact-us-page .form-wrap-left h6
+    {
+        font-size: 30px;
+    }
+    .contact-us-page .form-wrap-left p
+    {
+        padding: 8px 0;
+    }
+}
+
+@media only screen and (max-width : 575px) {
+    .contact-us-page
+    {
+        padding: 25px 0;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .contact-us-page .discover-wrapper h2 ,.contact-us-page .form-wrap-left h6
+    {
+        font-size: 23px;
+    }
+    .contact-us-page .discover-wrapper p , .contact-us-page .visit-us-wrapper p , .contact-us-page .visit-us-wrapper .para-2 , .contact-us-page .form-wrap-left p , .contact-us-page .email-wrapper p , .contact-us-page .callus-wrapper p
+    {
+        font-size: 14px;
+    }
+    .contact-us-page .visit-us-wrapper h3, .contact-us-page .email-wrapper h4, .contact-us-page .callus-wrapper h5
+    {
+        font-size: 20px;
+    }
+    .contact-us-page .removed-1
+    {
+        padding: 20px 0 !important;
+    }
+    .contact-us-page .form-wrap-right input::placeholder
+    {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width : 320px) {
+    .contact-us-page .discover-wrapper h2, .contact-us-page .form-wrap-left h6
+    {
+        font-size: 18px;
+    }
+    .contact-us-page .discover-wrapper p, .contact-us-page .visit-us-wrapper p, .contact-us-page .visit-us-wrapper .para-2, .contact-us-page .form-wrap-left p, .contact-us-page .email-wrapper p, .contact-us-page .callus-wrapper p
+    {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}

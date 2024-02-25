@@ -1,0 +1,25 @@
+.coming-soon .no-product-image
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.coming-soon .no-product-image img
+{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+.coming-soon .no-product-image .product-coming
+{
+    font-family:'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.50px;
+    padding-top: 30px;
+    color: #5a5a5a;
+}

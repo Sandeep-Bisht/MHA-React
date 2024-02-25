@@ -1,0 +1,26 @@
+.no-order-page .no-order-wrapper
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+.no-order-page .no-order-wrapper img
+{
+    padding-top: 41px;
+    height: 110px;
+    width: 100%;
+    object-fit: contain;
+}
+.no-order-page .order-heading
+{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.50px;
+    padding-top: 30px;
+    color: #5a5a5a;
+}

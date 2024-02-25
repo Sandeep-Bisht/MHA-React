@@ -1,0 +1,21 @@
+.carding .image-box
+{
+    background: #f0f0f0;
+    padding: 30px;
+    border-radius: 5px;
+}
+.carding .text-box
+{
+    text-align: start;
+}
+.carding .text-box .card-title
+{
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 450;
+}
+.carding .text-box .card-text
+{
+    font-weight: 500;
+
+}

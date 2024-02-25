@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat&family=Raleway:wght@600;700&display=swap');
+
+.text-success
+{
+    font-size: 14px;
+    letter-spacing: 0.15px;
+    font-weight: 400;
+    color: green;
+    font-family: 'Lato', sans-serif;
+}
+/* forget passwoord css */
+
+.auth-wrapper .forget-password-wrapper
+{
+  display: flex;
+  justify-content: end;
+  padding-top: 15px;
+}
+.auth-wrapper .forget-password-wrapper p
+{
+  color: #212121;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  cursor: pointer;
+}
+.auth-wrapper .forget-password-wrapper p:hover
+{
+  color: blue;
+}
+.auth-wrapper .forget-password-wrapper span:hover
+{
+  text-decoration: underline;
+  color: #B86097;
+  letter-spacing: 0.25px;
+  font-weight: 600;
+}
+
+.invalid-feedback
+{
+  font-size: 13px !important;
+}
+.sidebar-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.sidebar-logo .img-fluid {
+    height: 210px;
+}
+.auth-wrapper
+{
+  height: 70vh;
+}
+.authantication-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+.authantication-sidebar label
+{
+  color: #4c4b4bd9;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.authentication-logo
+{
+  display: flex;
+  justify-content: center;
+}
+.authentication-logo img
+{
+  height: 74px;
+  width: 85px;
+}
+.authantication-heading h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  text-align: center;
+  color: #0a0a0ab0;
+  font-size: 18px;
+}
+.auth-wrapper form .user-login-change {
+  margin:15px 0 !important;
+}
+
+/* eye css */
+
+.authantication-sidebar .eye-wrap {
+  position: relative;
+}
+
+.authantication-sidebar .eye-wrapper {
+  position: absolute;
+  top: 5px;
+  right: 9px;
+  cursor: pointer;
+}
+.not-a-member:hover
+{
+  text-decoration: none !important;
+  color: #212121 !important;
+  letter-spacing: 0 !important;
+  font-weight: 400 !important;
+}
+
+.auth-header
+{
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.auth-header1
+{
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 14px;
+  
+}
+.auth-header1 p:hover
+{
+  font-weight: 600;
+  color:#B86097;
+  text-decoration: underline;
+}
+.auth-header a
+{
+  color: #212121;
+  font-weight: 400;
+}
+.auth-header a:hover , .auth-header p:hover
+{
+  font-weight: 600;
+  color:#B86097;
+  text-decoration: underline;
+}
+.auth-header span:hover
+{
+  font-weight: 600;
+  color: #B86097;
+  text-decoration: underline;
+}
+
+  .sidebar-text{
+    text-transform: uppercase;
+    color: white;
+  }
+  .sidebar-heading{
+    font-size: 45px;
+    font-weight: 400;
+  }
+  .sidebar-heading span{
+       font-weight: 700;
+  }
+
+  .tagline {
+    text-transform: uppercase;
+    color: white;
+  }
+  .tagline
+  {
+
+    font-weight: 900;
+    border-left: 5px solid #fff;
+    padding-left: 12px;
+    margin-top: 15px;
+  }
+
+  /* sidebar login modal */
+
+  .react-responsive-modal-modal
+  {
+    max-width: 800px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    background: #ffffff;
+    box-shadow: 0 12px 15px 0 rgb(0 0 0 / 25%);
+    margin: 1rem;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    overflow-y: auto;
+    border-radius: 10px;
+  }
+  .react-responsive-modal-closeButton
+  {
+    display: none;
+  }
+  .react-responsive-modal-closeButton.modal-close-btn
+  {
+    display: block;
+  }
+  .react-responsive-modal-closeButton.modal-close-btn .modal-closed
+  {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 26px;
+    color: #444444;
+    transition: 0.6s all;
+    height: 32px;
+    width: 32px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Placeholder css */
+
+.auth-wrapper form .user-login-change-1 
+{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus
+{
+  box-shadow: none;
+}
+.auth-wrapper form .user-login-change-1 input, .auth-wrapper form .user-login-change-2 input
+{
+  box-shadow: none !important;
+  border: 1px solid #ced4da;
+}
+.auth-wrapper form .user-login-change-1 label, .auth-wrapper form .user-login-change-2 label
+{
+  color: #4c4b4bd9;
+  font-size: 15px;
+}
+
+
+ /* default error icon and border color remove  */
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+  background-image:none!important;
+  padding-right: 0 !important;
+ 
+}
+.form-control.is-invalid{
+  border:1px solid #dc3545!important;
+  padding-right: 0 !important;
+}
+
+
+
+/* Responsive */
+@media only screen and (max-width :3840px){
+  .auth-wrapper{
+    height:auto;
+    width:430px;
+ }
+ .auth-wrapper.single-register-page{
+  height: auto;
+ }
+}
+@media only screen and (max-width :2560px){
+  .auth-wrapper{
+    height:auto;
+    width:400px;
+ }
+ .auth-wrapper.single-register-page{
+  height: auto;
+ }
+}
+
+
+@media only screen and (max-width :1920px){
+  .auth-wrapper{
+     height:auto;
+     width:350px;
+  }
+  .auth-wrapper.single-register-page{
+    height: auto;
+   }
+
+}
+@media only screen and (max-width :1400px){
+  .auth-wrapper{
+    height:auto;
+    width:auto;
+ }
+}
+@media only screen and (max-width :1200px){
+  .auth-wrapper{
+    height:auto;
+    width:auto;
+ }
+}
+
+
+@media only screen and (max-width :1024px){
+  .auth-wrapper{
+    height: auto;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width : 991px) {
+  .react-responsive-modal-modal
+  {
+    padding-top: 30px !important;
+  }
+  .auth-wrapper{
+    height:auto;
+    width:auto;
+ }
+}
+
+@media only screen and (max-width : 575px) {
+  .auth-wrapper form .user-login-change-1 , .auth-submit-btn , .form-group , .auth-header
+  {
+    width: 300px;
+  }
+  .auth-wrapper form .user-login-change-1
+  {
+    margin-top: 0;
+  }
+  .increasing-width
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .react-responsive-modal-modal
+  {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 1.5rem;
+  }
+  .authantication-heading h4
+  {
+    margin: 5px 0;
+  }
+  .auth-header
+  {
+    padding: 0;
+  }
+  .auth-wrapper form .user-login-change-2 input
+  {
+    margin: 10px 0;
+  }
+  .auth-wrapper form .user-login-change-2 .form-label
+  {
+    bottom: 8px;
+  }
+  .auth-wrapper form .user-login-change-1 .form-label
+  {
+    top: -10px;
+  }
+  .auth-wrapper form .user-login-change-1, .auth-submit-btn, .form-group, .auth-header{
+    width: 100%;
+  }
+   .authantication-sidebar .auth-header1
+  {
+    padding-bottom: 0;
+  }
+ 
+}
+@media only screen and (max-width : 430px) {
+  .react-responsive-modal-modal
+  {
+    padding: 15px;
+    padding-top: 5rem;
+  }
+  .auth-wrapper form .user-login-change-1 , .auth-submit-btn
+  {
+    width:100%;
+  }
+     .authantication-heading h4{
+      margin: 0!important;
+     }
+      .invalid-feedback{
+        line-height: 1.2;
+        font-size: 12px!important;
+      }
+      .auth-wrapper .form-control{
+        height: 33px;
+      }
+      .authantication-sidebar label {
+        margin: 3px 0;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+  .increasing-width{
+    width: 100%;
+  }
+  .auth-wrapper form .user-login-change-1, .auth-submit-btn, .form-group, .auth-header{
+    width: 100%;
+  }
+
+  .authantication-sidebar
+  {
+    align-items: center;
+  }
+  
+  
+}
+
+
+@media only screen and (max-width : 320px) {
+  .react-responsive-modal-modal
+  {
+    padding: 0;
+  }
+}

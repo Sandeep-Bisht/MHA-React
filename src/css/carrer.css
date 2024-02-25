@@ -1,0 +1,45 @@
+.carrer-page
+{
+    padding: 60px 0;
+}
+
+.carrer-page .carrer-banner-image {   
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.carrer-page .carrer-heading {
+    font-family: 'Lato', sans-serif;
+    color: #B86097;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.carrer-page .carrer-input {
+    width: 50%;
+    margin: 20px 0;
+}
+
+.carrer-page .carrer-btn {
+    width: 30%;
+}
+
+@media only screen and (max-width:767px) {
+    .carrer-page
+    {
+        padding: 20px 0;
+    }
+    .carrer-page .carrer-heading
+    {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:575px) {
+    .carrer-page .carrer-heading
+    {
+        font-size: 20px;
+    }
+}

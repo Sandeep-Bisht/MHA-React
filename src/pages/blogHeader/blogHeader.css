@@ -1,0 +1,260 @@
+
+.blog-header {
+    padding: 40px 0;
+}
+.blog-header .blog-head-image
+{
+    position: relative;
+}
+.blog-header .blog-head-image img
+{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+}
+.blog-header .blog-head-btn
+  {
+    display: flex;
+    justify-content: center;
+  }
+.blog-header .blog-head-text-wrapper
+{
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.55);
+    padding: 35px 64px;
+    width: 100%;
+    height: 100%;
+}
+.blog-header .blog-head-text h1
+{
+    color: #fff;
+}
+.blog-header .blog-head-text p
+{
+  color: #f2f2f2;
+  font-size: 16px;
+}
+.blog-header .blog-head-text .brdr-top
+{
+    border-top: 1px solid #b9b9b9;
+}
+.blog-header .blog-head-social
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 34px;
+    align-items: center;
+    padding: 15px 0;
+}
+.blog-header .blog-head-social-image span , .blog-header .blog-head-social-image a
+{
+    color: gray;
+}
+.blog-header .blog-head-social-image a:hover
+{
+  color: #B86097;
+}
+
+.blog-section .single-blog-title{
+  margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    color: #202020;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+/* responsive */
+
+@media only screen and (max-width : 1399px)
+{
+
+}
+@media only screen and (max-width : 1199px)
+{
+  .blog-header .blog-head-btn .login-btn
+  {
+    font-size: 13px!important;
+  }
+}
+@media only screen and (max-width : 1024px)
+{
+}
+@media only screen and (max-width : 991px)
+{
+  .blog-header .blog-head-text h1
+  {
+    padding: 14px 0;
+    font-size: 26px;
+  }
+  .blog-header .blog-head-btn
+  {
+    display: flex;
+    justify-content: center;
+
+  }
+  .blog-header .blog-head-btn .login-btn
+  {
+    font-size: 12px!important;
+  }
+  .blog-header .blog-head-text-wrapper
+  {
+    padding: 10px 50px;
+  }
+  .common-heading
+  {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width : 767px)
+{
+  .blog-header .blog-head-btn
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-header .blog-head-social
+  {
+    line-height: 0;
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width : 575px)
+{
+  .blog-header
+  {
+    padding: 20px 0;
+  }
+
+}
+@media only screen and (max-width : 480px)
+{
+  .blog-header .blog-head-text-wrapper
+  {
+    padding: 0 40px;
+  }
+  .login-btn {
+    font-size: 14px !important;
+    padding: 8px 15px;
+}
+.blog-header .blog-head-text h1
+  {
+    font-size: 22px;
+  }
+  .blog-header .blog-head-image img
+  {
+    height: 350px;
+  }
+  .blog-header .blog-head-btn .login-btn
+  {
+    margin-top: 15px;
+  }
+  .blog-section .blog-image img
+  {
+    height: 120px;
+  }
+  .blog-section .blog-image .blog-color-changed-2 a
+  {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (max-width : 430px)
+{
+  .blog-section .blog-image .blog-color-changed-2 a
+  {
+    font-size: 13px !important;
+  }
+  .blog-section .blog-image .blog-color-changed-1
+  {
+    font-size: 12px;
+  }
+  .blog-section .blog-image .blog-text p
+  {
+    font-size: 12px;
+  }
+  .blog-section h4
+  {
+    font-size: 12px;
+  }
+  .blog-header .blog-head-social-image span, .blog-header .blog-head-social-image a
+  {
+    font-size: 13px !important;
+  }
+  .login-btn
+  {
+    font-size: 13px !important;
+    padding: 6px 10px;
+  }
+  .blog-header .blog-head-text h1
+  {
+    font-size: 17px;
+  }
+  .common-heading
+  {
+    font-size: 18px;
+  }
+  .blog-section .blog-image img
+  {
+    height: 100px;
+  }
+}
+@media only  screen and (max-width: 382px){
+  .blog-header .blog-head-image img
+  {
+    height: 420px;
+  }
+ 
+}
+@media only screen and (max-width : 320px)
+{
+  .blog-header
+  {
+    font-size: 10px;
+  }
+  .blog-header .blog-head-image img
+  {
+    height: 176px;
+  }
+  .blog-header .blog-head-social-image span, .blog-header .blog-head-social-image a
+  {
+    font-size: 10px !important;
+  }
+  .blog-header .blog-head-text h1
+  {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  .login-btn
+  {
+    padding: 5px 10px !important;
+  }
+  .common-heading
+  {
+    font-size: 14px;
+  }
+  .blog-section .blog-image img
+  {
+    height: 90px;
+  }
+  .blog-section h4
+  {
+    font-size: 8px;
+  }
+  .blog-section .blog-image .blog-color-changed-1
+  {
+    font-size: 5px;
+  }
+  .blog-section .blog-image
+  {
+    font-size: 8px;
+  }
+  .blog-section .blog-image .blog-color-changed-2 a
+  {
+    font-size: 11px !important;
+  }
+}

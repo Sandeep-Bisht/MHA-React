@@ -1,0 +1,73 @@
+.error-message{
+    color: red;
+}
+.form-control:disabled{
+    background-color: #fff!important;
+}
+.profile-wrapper .profile-section {
+    margin-top: 16px;
+}
+
+.profile-wrapper .profile-section label {
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-family: 'Lato', sans-serif;
+}
+
+.profile-wrapper .profile-section input:focus {
+    border: 1px solid #000!important;
+    opacity: .8!important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)!important;
+}
+
+
+
+
+.profile-wrapper .profile-section div input:focus, div textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border:2px solid #f1cdd7;
+
+}
+.profile-wrapper .profile-section  div textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border:2px solid #f1cdd7;
+
+}
+.profile-wrapper .profile-section .profile-submit-btn button {
+    border: none;
+    color: #ffffff;
+    background-color: #495057;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 8px 40px;
+    width: auto;
+    margin: 25px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+.form-control
+{
+    border-radius: 0 !important;
+}
+
+.profile-wrapper .profile-section .profile-submit-btn button:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.profile-wrapper .profile-section h4 {
+    padding : 18px 0;
+    border-bottom: 1px solid #f2f2f2;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Playfair Display', serif;;
+    text-transform: capitalize;
+}

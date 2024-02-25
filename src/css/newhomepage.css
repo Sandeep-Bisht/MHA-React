@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+
+iframe
+{
+    width: 100%;
+}
+.video-demo-section .demo-1
+{
+    padding-top: 70px;
+}
+.video-demo-section .demo-1 h4
+{
+    font-family: 'Playfair Display', serif;
+    padding: 15px 0;
+    font-size: 34px;
+    font-weight: 400;
+}
+.video-demo-section p
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.video-demo-section .demo-2
+{
+    width: 100%;
+}
+
+.back-to-top-icon
+{
+    position: fixed;
+    color: #212121;
+    bottom: 20px;
+    right: 30px;
+    font-size: 30px;
+}
+.back-to-top-icon svg:hover
+{
+    color: #B86097;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.class {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.class::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.asterisk::after
+{
+    content: '*';
+    color: red;
+}
+._3xnQP
+{
+    z-index: 3 !important;
+}
+
+.homepage-content .summer-table-content , .homepage-content .the-sea-content , .homepage-content .plates-content , .homepage-content .the-sea-content
+{
+    padding: 0 40px;
+    text-align: justify;
+}
+.homepage-content .summer-table-image , .homepage-content .the-sea-image-1, .homepage-content .the-sea-image-1 , .homepage-content .plates-image , .homepage-content .black-forest-image
+{
+    padding: 40px 10px;
+}
+.homepage-content .summer-table-image img , .homepage-content .the-sea-image-1 img ,.homepage-content .the-sea-image-2 img, .homepage-content .plates-image img , .homepage-content .black-forest-image img
+{
+    cursor: pointer;
+    height: 460px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.homepage-featured-products
+{
+    padding: 40px 0;
+}
+.homepage-featured-products .feature-text
+{
+    border-top: 1px solid #dfdada;
+    padding: 20px 0;
+}
+.homepage-featured-products .feature-product-box-1 .box-1-image-1 , .homepage-featured-products .feature-product-box-1 .box-1-image-2 , .homepage-featured-products .feature-product-box-3 .box-3-image-1 , .homepage-featured-products .feature-product-box-3 .box-3-image-2
+{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.homepage-featured-products .feature-product-box-2 .box-2-image
+{
+    text-align: center;
+    margin: 60px 0;
+    cursor: pointer;
+}
+.homepage-featured-products .feature-product-btn
+{
+    display: flex;
+    justify-content: center;
+}
+.homepage-featured-products .feature-btn
+{
+    background: #4D4D4D;
+    padding: 6px 100px;
+    border: 1px solid #212121;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 400;
+    letter-spacing: .7px;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #fff;
+    font-family: lato;
+}
+.homepage-featured-products .box-1-images img , .homepage-featured-products .box-3-images img
+{
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(0px 7px 10px rgba(51, 37, 11, 0.15));
+}
+.homepage-featured-products .box-2-image img 
+{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(0px 7px 25px rgba(51, 37, 11, 0.15));
+}
+.homepage-featured-products .common-para
+{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400!important;
+    letter-spacing: 0.7px;
+    color: #202020;
+    text-align: center;
+  
+    font-family: 'Lato', sans-serif;
+}
+.homepage-featured-products .feature-product-price
+{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5a5a5a;
+    font-family: 'Lato', sans-serif;
+}
+.homepage-follow-modern-wrap
+{
+    padding: 30px 0;
+}
+.homepage-follow-modern-wrap .follow-up-email-text
+{
+    border-top: 1px solid #dfdada;
+}
+
+.homepage-content  img{
+    height: 100%!important;
+}
+
+
+.footer-page
+{
+    padding-top: 50px;
+    background: #f2f2f2;
+}
+.footer-page .footer-email
+{
+    display: flex;
+    justify-content: center;
+}
+.footer-page .footer-email input
+{
+    border: none;
+    padding: 7px 40px;
+    background: #fff;
+}
+.footer-page .footer-email input::placeholder
+{
+    letter-spacing: 1px;
+    color: #777;
+}
+.footer-page .footer-email input::placeholder
+{
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.footer-page .footer-email button
+{
+    border: none;
+    padding: 11px 20px 8px 20px;
+    background: #4D4D4D;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: lato;
+}
+.footer-page .footer-insta-logo
+{
+    display: flex;
+    justify-content: center;
+    border: 0!important;
+}
+.footer-page .footer-insta-logo a
+{
+    color: #212121;
+    font-size: 24px;
+}
+.footer-page .footer-border
+{
+    border-top: 1px solid #dfdada;
+    padding: 40px 0;
+    margin-top: 40px;
+    border-bottom: 1px solid #dfdada;
+}
+.footer-page .footer-info-links a , .footer-page .footer-policy-links a
+{
+    display: block;
+    text-decoration: none;
+    color: #5a5a5a;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 4px 0;
+    font-family: 'Lato', sans-serif;
+}
+.footer-page .footer-info-links a:hover , .footer-page .footer-policy-links a:hover
+{
+    font-weight: 600;
+    color: #B86097;
+}
+
+/* common footer-heading */
+
+.footer-heading
+{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+
+.footer-para
+{
+    line-height: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5a5a5a;
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+}
+.footer-para::first-letter
+{
+    text-transform: capitalize;
+}
+
+/* .footer-page .footer-mha-logo
+{
+    padding-top: 50px;
+} */
+
+.footer-page .footer-mha-logo img
+{
+    height: 150px;
+    background: #fff;
+    padding: 15px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.odd-alignment
+{
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.homepage-content .my-excerpt {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/* responsive */
+
+
+@media only screen and (max-width : 1199px)
+{
+    .footer-page .footer-email input
+    {
+        padding: 0 18px;
+    }
+    .footer-page .footer-insta-logo a
+    {
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width : 991px)
+{
+    .homepage-content .summer-table-content, .homepage-content .the-sea-content, 
+    .homepage-content .plates-content, .homepage-content .the-sea-content {
+        padding: 0;
+    }
+    .homepage-featured-products .box-2-image img
+    {
+        height: 350px;
+    }
+    .homepage-featured-products .box-1-images img, .homepage-featured-products .box-3-images img {
+        height: 160px;
+    }
+    .common-heading-3
+    {
+        font-size: 30px;
+    }
+    .common-para-3
+    {
+        font-size: 14px;
+    }
+    .common-btn-2
+    {
+        font-size: 13px;
+    }
+    .homepage-content
+    {
+        padding-bottom: 20px;
+    }
+    .homepage-follow-modern-wrap
+    {
+        padding-top: 30px;
+    }
+    .footer-page .footer-email
+    {
+        justify-content: start;
+    }
+    .footer-page .footer-email button {
+        padding: 12px 20px 12px 27px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .footer-page .footer-email input
+    {
+        padding: 0 15px;
+    }
+    .footer-page .footer-stay-touch h5
+    {
+        text-align: center !important;
+    }
+    .footer-page .footer-email
+    {
+        justify-content: center;
+        margin: 15px 0;
+    }
+    .footer-page .footer-mha-logo {
+        padding: 30px 0;
+    }
+    .footer-heading {
+        padding-top: 20px;
+        margin: 0;
+    }
+    .navigation-bar-1 .header-nav-links a
+    {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+
+.padding-formobile-view
+{
+    padding: 0 12px;
+}
+.homepage-featured-products .feature-product-box-2 .box-2-image
+    {
+        padding: 0;
+    }
+.homepage-featured-products
+{
+    padding: 0;
+}
+.homepage-featured-products .feature-text
+{
+    padding: 0;
+}
+.common-heading
+{
+    padding: 10px 0;
+}
+.homepage-featured-products .box-1-images img, .homepage-featured-products .box-3-images img {
+    height: 290px;
+}
+.homepage-featured-products .feature-product-btn
+{
+    margin: 20px 0;
+}
+.homepage-content .summer-table-image, .homepage-content .the-sea-image-1 , .homepage-content .the-sea-image-1, .homepage-content .plates-image, .homepage-content .black-forest-image
+{
+    padding: 40px 0;
+}
+    .homepage-follow-modern-wrap
+    {
+        padding-top: 15px;
+    }
+    .common-heading-3 {
+        font-size: 19px;
+        padding: 2px 0;
+        font-weight: 500;
+    }
+    .common-btn-2
+    {
+        padding: 6px;
+    }
+    .common-heading
+    {
+        font-size: 19px !important;
+    }
+    .the-sea-image-1
+    {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .homepage-featured-products .feature-product-box-2 .box-2-image
+    {
+        margin: 0;
+    }
+    .common-heading-3 
+    {
+        font-size: 20px;
+    font-family: Playfair Display,serif;
+    padding: 0;
+    font-weight: 500
+    }
+    .common-para-3
+    {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .common-btn-2
+    {
+        font-size: 12px;
+    }
+    .product-description .product-details .price-wrapper-3
+    {
+        line-height: 20px !important;
+    }
+    .homepage-featured-products .box-1-images img, .homepage-featured-products .box-3-images img {
+        height: 210px;
+        object-fit: contain;
+    }
+    .homepage-featured-products .feature-product-box-1 p, .homepage-featured-products .feature-product-box-2 p, .homepage-featured-products .feature-product-box-3 p
+    {
+        font-size: 14px;
+    }
+    .homepage-featured-products .box-2-image img
+    {
+        padding-top: 0;
+        height: auto;
+    }
+    .common-heading
+    {
+        font-size: 20px !important;
+    }
+    .homepage-featured-products .feature-btn
+    {
+        padding: 6px 50px;
+    }
+    .homepage-content .summer-table-image img , .homepage-content .the-sea-image-1 img ,.homepage-content .the-sea-image-2 img, .homepage-content .plates-image img , .homepage-content .black-forest-image img
+    {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .common-heading-3 {
+        font-size: 18px;
+    font-family: Playfair Display,serif;
+    padding: 0;
+    font-weight: 500
+    }
+    .common-para-3 {
+        font-size: 12px;
+        margin: 0;
+    }
+    .common-btn-2 {
+        font-size: 11px;
+        padding: 5px;
+        margin-top: 7px;
+    }
+    .common-heading {
+        font-size: 20px !important;
+    }
+    .homepage-featured-products .box-1-images img, .homepage-featured-products .box-3-images img {
+        height: 160px;
+    }
+    .homepage-featured-products .feature-product-box-1 p, .homepage-featured-products .feature-product-box-2 p, .homepage-featured-products .feature-product-box-3 p {
+        font-size: 12px;
+    }
+    .homepage-featured-products .box-2-image img {
+        height: 370px;
+    }
+    .homepage-featured-products .feature-btn {
+        padding: 3px 35px;
+        font-size: 15px;
+    }
+    .homepage-featured-products .feature-product-box-1 p, .homepage-featured-products .feature-product-box-2 p, .homepage-featured-products .feature-product-box-3 p {
+        font-size: 12px;
+        padding-top: 0;
+    }
+    .footer-heading
+    {
+        padding-top: 0;
+        font-size: 14px;
+    }
+    .footer-page .footer-info-links a, .footer-page .footer-policy-links a {
+    font-size: 12px;
+    }
+    .footer-para
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .footer-page {
+        padding: 10px 0;
+    }
+    .homepage-content .summer-table-image, .homepage-content .the-sea-image-1 , .homepage-content .the-sea-image-1, .homepage-content .plates-image, .homepage-content .black-forest-image
+    {
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width:480px)
+{
+    .feature-product-name-price{
+       margin: 10px 0 5px 0;
+       font-size:14px!important;
+    }
+    .feature-product-price{
+        font-size:14px!important;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .homepage-featured-products .feature-btn
+{
+    padding: 6px 16px;
+    font-size: 12px;
+}
+}
+
+
+@media only screen and (max-width:400px)
+{
+    .homepage-featured-products .box-2-image img {
+        height: 300px;
+    }
+}
+
+
+@media only screen and (max-width:380px) {
+    .footer-page .footer-email button
+    {
+        padding: 12px;
+    }
+}
+@media only screen and (max-width:343px) {
+    .footer-page .footer-email button
+    {
+        padding: 5px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .homepage-content .summer-table-image img , .homepage-content .the-sea-image-1 img ,.homepage-content .the-sea-image-2 img, .homepage-content .plates-image img , .homepage-content .black-forest-image img
+    {
+        height: 250px;
+    }
+}

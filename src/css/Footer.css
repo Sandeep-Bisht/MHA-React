@@ -1,0 +1,270 @@
+.subscribed-email{
+    text-align: center;
+    margin: 0;
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.footer-section
+{
+    background: #41748D;
+    padding: 40px 0;
+    color: #fff;
+}
+.footer-section .icon
+{
+    font-size: 16px;
+    padding-right: 7px;
+    display: flex;
+}
+.footer-section h2
+{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.footer-section .footer-store
+{
+    font-size: 14px;
+}
+.footer-section .footer-icon-wrapper .address, .footer-section .footer-tel
+{
+    line-height: 1;
+}
+.footer-section .product-names ul, .footer-section .company-names ul
+{
+    list-style: none;
+    padding-left: 0;
+    font-size: 15px;
+}
+.footer-section .product-names ul li, .footer-section .company-names ul li
+{
+    padding-bottom: 10px;
+}
+.footer-section .footer-clients-views .icon-1
+{
+    font-size: 30px;
+    padding-right: 30px;
+}
+.footer-section .footer-clients-views .client-opinion-1
+{
+    font-size: 14px;
+}
+
+
+/* footer blog */
+.footer-page .footer-blog a
+{
+    color: #212121;
+    text-decoration: none;
+    padding-right: 7px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+.footer-page .footer-blog a span
+{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+.footer-page .footer-blog a:hover
+{
+    color: #B86097;
+}
+.footer-page .footer-blog a svg
+{
+    height: 20px;
+}
+.footer-page .footer-blog a svg:hover path
+{
+    fill: #B86097;
+}
+.footer-page.footer-blog
+    {
+        display: none;
+    }
+.footer-page .text-end
+{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.50px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+/* Email Css */
+
+.email-section
+{
+    padding: 16px 0;
+}
+.email-section .email-icon-1 .mail-icon
+{
+    color: #EC5451;
+    font-size: 24px;
+    display: flex;
+    padding-right: 10px;
+}
+.email-section .email-icon-1 .update-box .update-text
+{
+    font-weight: 600;
+}
+.email-section .email-icon-2 .e-mail-box
+{
+    width: 300px;
+}
+.email-section .email-icon-2 .e-mail-box input
+{
+    width: 100%;
+    padding: 7px 15px;
+    background: #ededed;
+    border: none;
+    font-size: 14px;
+}
+.email-section .email-icon-2 .e-mail-box input::placeholder
+{
+    font-weight: 500;
+    color: #888B8D;
+}
+.email-section .email-icon-2 .send-box .send-icon
+{
+    background: #EC5451;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 20px;
+}
+
+
+/* Designed by Css */
+
+.designed-by-section
+{
+    padding: 6px 0;
+    background: #f2f2f2;
+}
+.designed-by-section .designed-box p
+{
+    color: #525252;
+    font-weight: 400;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+.designed-by-section .designed-box span
+{
+    color: #b86097;
+    font-weight: 500;
+    font-size: 12px;
+}
+ .designed-by-section .designed-box span img
+ {
+     width: 65%;
+ }
+.designed-by-section .designed-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+.giks-link
+{
+    text-decoration: none;
+    color: #b86097;
+}
+.giks-link:hover
+{
+    color: #b86097;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width : 767px)
+{
+    .footer-page
+    {
+        padding-top: 20px !important;
+    }
+    .footer-page .footer-border
+    {
+        padding: 20px 0 !important;
+        margin-top: 20px !important;
+    }
+    .subscribed-email
+    {
+        padding: 0 !important;
+        margin-bottom: 10px;
+        margin-top: 0;
+        line-height: 1;
+    }
+    .footer-section .footer-clients-views
+    {
+        display: none;
+    }
+    .footer-page .footer-mha-logo
+    {
+        display: none;
+    }
+    .footer-page .text-end
+    {
+        padding-bottom: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .footer-page .footer-stay-touch h5
+    {
+        font-size: 17px;
+    }
+    .footer-page .footer-email input
+    {
+        padding: 0;
+    }
+    .footer-page
+    {
+        padding: 10px 0;
+    }
+    .footer-page .footer-border
+    {
+        margin-top: 20px;
+        padding-top: 0;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:575px)
+{
+    .designed-by-section .designed-box span img
+    {
+        width: 100%;
+    }
+    .designed-by-section .powered-box{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 399px) {
+    .designed-by-section .designed-box p
+    {
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 385px) {
+    .designed-by-section .designed-box p
+    {
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 372px) {
+    .designed-by-section .designed-box p
+    {
+        font-size: 7px;
+    }
+}
+@media only screen and (max-width:366px){
+    .designed-by-section .designed-box span
+    {
+        font-size: 9px;
+    }
+}

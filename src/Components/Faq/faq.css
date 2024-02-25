@@ -1,0 +1,105 @@
+.single-faq{
+    padding: 50px 0;
+    text-align: center;
+}
+.accordion{
+  border:0;
+}
+.single-faq .accordion-item{
+ 
+    border:0;
+   
+    border: 2px solid  #EAE6EE;
+    margin-bottom: 1rem;
+    box-shadow:0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.single-faq .accordion .accordion-button:focus{
+    box-shadow: none;
+}
+.single-faq .accordion .accordion-button:not(.collapsed){
+
+    background-color: #fafafa;
+    color: #B86097;
+}
+.single-faq .accordion .accordion-button::after{
+ background-image: none;
+}
+.single-faq .accordion .accordion-header{
+ display: flex;
+ align-items: center;
+ position: relative;
+ z-index: 4;
+
+
+}
+.single-faq .accordion .accordion-header .accordion-button
+{
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+}
+.single-faq .accordion .accordion-header span.two
+{
+    display: flex;
+
+    background: #eae6ee;
+    font-size: 14px;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    z-index:5;
+ 
+}
+
+.single-faq .accordion .accordion-header  .icon1{
+    display: none;
+}
+
+.single-faq .accordion .accordion-button[aria-expanded="true"] .icon1{
+    display: block;
+}
+.single-faq .accordion .accordion-button[aria-expanded="true"] .icon2{
+    display: none;
+}
+.single-faq .accordion .accordion-body{
+    text-align: left;
+}
+
+
+/* -------------------faq responsive----------------------- */
+@media only screen and (max-width:575px){
+        .single-faq{
+            padding: 25px 0;
+        }
+        .single-faq .footer-inner-page-subheading{
+             margin-bottom: 5px!important;
+        }
+        .single-faq .common-para-3{
+            font-size: 13px;
+        }
+        .single-faq .accordion{
+            margin-top: 15px;
+        }
+}
+
+
+@media only screen and (max-width:520px){
+    .single-faq .accordion .accordion-header span.one{
+        margin-right: 20px;
+    }  
+}
+@media only screen and (max-width:420px){
+    .single-faq .accordion .accordion-header .accordion-button{
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    .single-faq .accordion .accordion-header span.two{
+        height: 25px;
+        width: 25px;
+        font-size:12px;
+    }
+}
